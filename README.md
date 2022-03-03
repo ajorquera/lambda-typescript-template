@@ -10,3 +10,9 @@ This is a template repo for creating lambda functions using typescript. We are u
  * Its integrated with Visual Studio Code for debugging 
  * It uses Github Actions for CI/CD workflows
  * It uses Mocha for unit testing
+
+ After clonining this template do the following: 
+
+ 1. Set the AppName in .toml file and package.json
+ 2. For CD deployment into aws you will need the AWS_ACCESS_KEY_ID AWS_REGION AWS_SECRET_ACCESS_KEY
+ 3. Is important to take into account dependencies as lambda functions have a limit with the size amount
