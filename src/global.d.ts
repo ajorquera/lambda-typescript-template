@@ -1,6 +1,7 @@
+type code = "unknown";
 interface ErrorType {
-  code: "API_ERROR";
+  code: code;
   data?: unknown;
 }
 
-type NextErrorFn = (error: ErrorType) => void;
+type NextErrorFn = (error?: ErrorType) => void;
